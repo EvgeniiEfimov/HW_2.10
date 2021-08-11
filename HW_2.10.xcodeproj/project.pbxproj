@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412E4686A50C67F02720D09F /* Pods_HW_2_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279C7A77C6DC533D6C285D3A /* Pods_HW_2_10.framework */; };
 		CE4CF95926BF323D002D1D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF95826BF323D002D1D6F /* AppDelegate.swift */; };
 		CE4CF95B26BF323D002D1D6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */; };
-		CE4CF95D26BF323D002D1D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF95C26BF323D002D1D6F /* ViewController.swift */; };
 		CE4CF96026BF323D002D1D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF95E26BF323D002D1D6F /* Main.storyboard */; };
 		CE4CF96226BF323D002D1D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF96126BF323D002D1D6F /* Assets.xcassets */; };
 		CE4CF96526BF323E002D1D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF96326BF323E002D1D6F /* LaunchScreen.storyboard */; };
+		CE4CF96E26BF325B002D1D6F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF96D26BF325B002D1D6F /* Model.swift */; };
+		CE4CF97926C013A3002D1D6F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */; };
+		CE4CF98526C01966002D1D6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98426C01966002D1D6F /* NetworkManager.swift */; };
+		CE4CF98926C0362C002D1D6F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98826C0362C002D1D6F /* DataManager.swift */; };
+		CE4CF99026C03F48002D1D6F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98F26C03F48002D1D6F /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279C7A77C6DC533D6C285D3A /* Pods_HW_2_10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW_2_10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CF95526BF323D002D1D6F /* HW_2.10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_2.10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CF95826BF323D002D1D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE4CF95C26BF323D002D1D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE4CF95F26BF323D002D1D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4CF96126BF323D002D1D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4CF96426BF323E002D1D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4CF96626BF323E002D1D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4CF96D26BF325B002D1D6F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		CE4CF98426C01966002D1D6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE4CF98826C0362C002D1D6F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CE4CF98F26C03F48002D1D6F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D6BAEA7819400D22C656D41F /* Pods-HW_2.10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW_2.10.debug.xcconfig"; path = "Target Support Files/Pods-HW_2.10/Pods-HW_2.10.debug.xcconfig"; sourceTree = "<group>"; };
+		DD6EE8A7D33561C78385E8C6 /* Pods-HW_2.10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW_2.10.release.xcconfig"; path = "Target Support Files/Pods-HW_2.10/Pods-HW_2.10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412E4686A50C67F02720D09F /* Pods_HW_2_10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96443CEE66D3DA1A4258C575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279C7A77C6DC533D6C285D3A /* Pods_HW_2_10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE4CF94C26BF323C002D1D6F = {
 			isa = PBXGroup;
 			children = (
 				CE4CF95726BF323D002D1D6F /* HW_2.10 */,
 				CE4CF95626BF323D002D1D6F /* Products */,
+				F2CCF0C04775A70CFB091609 /* Pods */,
+				96443CEE66D3DA1A4258C575 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,61 @@
 		CE4CF95726BF323D002D1D6F /* HW_2.10 */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF95826BF323D002D1D6F /* AppDelegate.swift */,
-				CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */,
-				CE4CF95C26BF323D002D1D6F /* ViewController.swift */,
-				CE4CF95E26BF323D002D1D6F /* Main.storyboard */,
-				CE4CF96126BF323D002D1D6F /* Assets.xcassets */,
-				CE4CF96326BF323E002D1D6F /* LaunchScreen.storyboard */,
-				CE4CF96626BF323E002D1D6F /* Info.plist */,
+				CE4CF98026C017C9002D1D6F /* Models */,
+				CE4CF97F26C017A1002D1D6F /* Storyboards */,
+				CE4CF97D26C0177F002D1D6F /* Controllers */,
+				CE4CF98126C0187B002D1D6F /* AsistentFile */,
 			);
 			path = HW_2.10;
+			sourceTree = "<group>";
+		};
+		CE4CF97D26C0177F002D1D6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF98F26C03F48002D1D6F /* StartViewController.swift */,
+				CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE4CF97F26C017A1002D1D6F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF95E26BF323D002D1D6F /* Main.storyboard */,
+				CE4CF96326BF323E002D1D6F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE4CF98026C017C9002D1D6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF96D26BF325B002D1D6F /* Model.swift */,
+				CE4CF98826C0362C002D1D6F /* DataManager.swift */,
+				CE4CF98426C01966002D1D6F /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE4CF98126C0187B002D1D6F /* AsistentFile */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF95826BF323D002D1D6F /* AppDelegate.swift */,
+				CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */,
+				CE4CF96126BF323D002D1D6F /* Assets.xcassets */,
+				CE4CF96626BF323E002D1D6F /* Info.plist */,
+			);
+			path = AsistentFile;
+			sourceTree = "<group>";
+		};
+		F2CCF0C04775A70CFB091609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6BAEA7819400D22C656D41F /* Pods-HW_2.10.debug.xcconfig */,
+				DD6EE8A7D33561C78385E8C6 /* Pods-HW_2.10.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4CF96926BF323E002D1D6F /* Build configuration list for PBXNativeTarget "HW_2.10" */;
 			buildPhases = (
+				B76D4174A861405B2F748D7F /* [CP] Check Pods Manifest.lock */,
 				CE4CF95126BF323D002D1D6F /* Sources */,
 				CE4CF95226BF323D002D1D6F /* Frameworks */,
 				CE4CF95326BF323D002D1D6F /* Resources */,
+				A5B999391BDE56EA1CB1521D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +203,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5B999391BDE56EA1CB1521D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW_2.10/Pods-HW_2.10-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW_2.10/Pods-HW_2.10-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HW_2.10/Pods-HW_2.10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76D4174A861405B2F748D7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HW_2.10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE4CF95126BF323D002D1D6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4CF95D26BF323D002D1D6F /* ViewController.swift in Sources */,
+				CE4CF97926C013A3002D1D6F /* WeatherViewController.swift in Sources */,
+				CE4CF99026C03F48002D1D6F /* StartViewController.swift in Sources */,
+				CE4CF98926C0362C002D1D6F /* DataManager.swift in Sources */,
 				CE4CF95926BF323D002D1D6F /* AppDelegate.swift in Sources */,
+				CE4CF98526C01966002D1D6F /* NetworkManager.swift in Sources */,
 				CE4CF95B26BF323D002D1D6F /* SceneDelegate.swift in Sources */,
+				CE4CF96E26BF325B002D1D6F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +400,12 @@
 		};
 		CE4CF96A26BF323E002D1D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BAEA7819400D22C656D41F /* Pods-HW_2.10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW_2.10/Info.plist;
+				INFOPLIST_FILE = HW_2.10/AsistentFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +419,12 @@
 		};
 		CE4CF96B26BF323E002D1D6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6EE8A7D33561C78385E8C6 /* Pods-HW_2.10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW_2.10/Info.plist;
+				INFOPLIST_FILE = HW_2.10/AsistentFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
