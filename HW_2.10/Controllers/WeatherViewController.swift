@@ -16,15 +16,10 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var labelWind: UILabel!
     
     @IBOutlet weak var stackViewInfo: UIStackView!
-    @IBOutlet weak var labelError: UILabel!
-    
+   
     var networkManager = NetworkManager()
     
-    var valueCity: String = ""
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    private var valueCity: String = ""
     
     @IBAction func Go() {
         shouAlert()
@@ -42,32 +37,30 @@ class WeatherViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "GO",
                                       style: .default,
                                       handler: { (alertAction) in
-                                    
-            self.feathWeather(city: self.valueCity)
-//            self.showViewError()
-            
-        }))
+                                        
+                                        self.feathWeather(city: self.valueCity)
+                                        
+                                      }))
         self.present(alert, animated: true, completion: nil)
     }
     private func hiddenStak() {
         stackViewInfo.isHidden = false
     }
     
-    private func showViewError() {
-        if NetworkManager.shared.error.isEmpty {
-            labelError.isHidden = false
-        }
-    }
     
     private func feathWeather(city: String) {
         NetworkManager.shared.feathWeather(nameCity: city) { (weatherModel) in
             self.hiddenStak()
             self.labelCityName.text = weatherModel.name
             self.labelDescription.text = weatherModel.weather.last?.description
-            self.labelTemperature.text = String(weatherModel.main.temp)
-            self.labelWind.text = String(weatherModel.wind.speed)
+            self.labelTemperature.text = String(format: "%.0f", weatherModel.main.temp)+" ℃"
+            self.labelWind.text = "Скорость ветра: " + String(format: "%.0f", weatherModel.wind.speed) + " М/C"
+            
             
             guard let idValue = weatherModel.weather.first?.id else { return }
+            idValue == 800 ? (self.imageWeather.tintColor = UIColor.yellow) :
+                (self.imageWeather.tintColor = UIColor.gray)
+            
             switch idValue {
             case (200...232):
                 self.imageWeather.image = UIImage(systemName: "tornado")
@@ -91,11 +84,11 @@ class WeatherViewController: UIViewController {
 }
 
 extension WeatherViewController: UITextFieldDelegate {
-    func textFieldDidEndEditing(_ textField: UITextField) {
+     func textFieldDidEndEditing(_ textField: UITextField) {
         valueCity = textField.text ?? ""
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         feathWeather(city: valueCity)
         return true
     }

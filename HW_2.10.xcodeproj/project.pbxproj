@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,8 +16,6 @@
 		CE4CF96E26BF325B002D1D6F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF96D26BF325B002D1D6F /* Model.swift */; };
 		CE4CF97926C013A3002D1D6F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */; };
 		CE4CF98526C01966002D1D6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98426C01966002D1D6F /* NetworkManager.swift */; };
-		CE4CF98926C0362C002D1D6F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98826C0362C002D1D6F /* DataManager.swift */; };
-		CE4CF99026C03F48002D1D6F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF98F26C03F48002D1D6F /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +30,6 @@
 		CE4CF96D26BF325B002D1D6F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		CE4CF98426C01966002D1D6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		CE4CF98826C0362C002D1D6F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		CE4CF98F26C03F48002D1D6F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D6BAEA7819400D22C656D41F /* Pods-HW_2.10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW_2.10.debug.xcconfig"; path = "Target Support Files/Pods-HW_2.10/Pods-HW_2.10.debug.xcconfig"; sourceTree = "<group>"; };
 		DD6EE8A7D33561C78385E8C6 /* Pods-HW_2.10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW_2.10.release.xcconfig"; path = "Target Support Files/Pods-HW_2.10/Pods-HW_2.10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +86,6 @@
 		CE4CF97D26C0177F002D1D6F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF98F26C03F48002D1D6F /* StartViewController.swift */,
 				CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */,
 			);
 			path = Controllers;
@@ -109,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				CE4CF96D26BF325B002D1D6F /* Model.swift */,
-				CE4CF98826C0362C002D1D6F /* DataManager.swift */,
 				CE4CF98426C01966002D1D6F /* NetworkManager.swift */,
 			);
 			path = Models;
@@ -132,7 +126,6 @@
 				D6BAEA7819400D22C656D41F /* Pods-HW_2.10.debug.xcconfig */,
 				DD6EE8A7D33561C78385E8C6 /* Pods-HW_2.10.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -251,8 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CF97926C013A3002D1D6F /* WeatherViewController.swift in Sources */,
-				CE4CF99026C03F48002D1D6F /* StartViewController.swift in Sources */,
-				CE4CF98926C0362C002D1D6F /* DataManager.swift in Sources */,
 				CE4CF95926BF323D002D1D6F /* AppDelegate.swift in Sources */,
 				CE4CF98526C01966002D1D6F /* NetworkManager.swift in Sources */,
 				CE4CF95B26BF323D002D1D6F /* SceneDelegate.swift in Sources */,
