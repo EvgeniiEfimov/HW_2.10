@@ -10,8 +10,8 @@ import Alamofire
 
 class NetworkManager {
     
-   static let shared = NetworkManager()
-   
+    static let shared = NetworkManager()
+    
     private var weatherModel: WeatherModel!
     
     func feathWeather(nameCity: String, handler: @escaping (WeatherModel)-> Void) {
@@ -37,5 +37,5 @@ class NetworkManager {
             }
     } 
     
-
-    }
+    
+}
