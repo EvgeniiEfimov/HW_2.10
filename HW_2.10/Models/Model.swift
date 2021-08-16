@@ -12,12 +12,6 @@ struct WeatherModel: Codable {
     let main: Main
     let wind: Wind
     
-    init(name: String, weather: [Weather], main: Main, wind: Wind) {
-        self.name = name
-        self.weather = weather
-        self.main = main
-        self.wind = wind
-    }
 }
 
 struct Weather: Codable {

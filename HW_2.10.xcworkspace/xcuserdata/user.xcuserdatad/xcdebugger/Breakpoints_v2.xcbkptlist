@@ -14,8 +14,8 @@
             filePath = "HW_2.10/Models/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "feathWeather(nameCity:handler:)"
             landmarkType = "7">
          </BreakpointContent>

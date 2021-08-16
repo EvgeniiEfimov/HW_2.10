@@ -11,7 +11,7 @@
 		CE4CF95926BF323D002D1D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF95826BF323D002D1D6F /* AppDelegate.swift */; };
 		CE4CF95B26BF323D002D1D6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */; };
 		CE4CF96026BF323D002D1D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF95E26BF323D002D1D6F /* Main.storyboard */; };
-		CE4CF96226BF323D002D1D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF96126BF323D002D1D6F /* Assets.xcassets */; };
+		CE4CF96226BF323D002D1D6F /* back in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF96126BF323D002D1D6F /* back */; };
 		CE4CF96526BF323E002D1D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF96326BF323E002D1D6F /* LaunchScreen.storyboard */; };
 		CE4CF96E26BF325B002D1D6F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF96D26BF325B002D1D6F /* Model.swift */; };
 		CE4CF97926C013A3002D1D6F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF97826C013A3002D1D6F /* WeatherViewController.swift */; };
@@ -24,7 +24,7 @@
 		CE4CF95826BF323D002D1D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE4CF95F26BF323D002D1D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE4CF96126BF323D002D1D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4CF96126BF323D002D1D6F /* back */ = {isa = PBXFileReference; lastKnownFileType = folder; path = back; sourceTree = "<group>"; };
 		CE4CF96426BF323E002D1D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4CF96626BF323E002D1D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4CF96D26BF325B002D1D6F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			children = (
 				CE4CF95826BF323D002D1D6F /* AppDelegate.swift */,
 				CE4CF95A26BF323D002D1D6F /* SceneDelegate.swift */,
-				CE4CF96126BF323D002D1D6F /* Assets.xcassets */,
+				CE4CF96126BF323D002D1D6F /* back */,
 				CE4CF96626BF323E002D1D6F /* Info.plist */,
 			);
 			path = AsistentFile;
@@ -189,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CF96526BF323E002D1D6F /* LaunchScreen.storyboard in Resources */,
-				CE4CF96226BF323D002D1D6F /* Assets.xcassets in Resources */,
+				CE4CF96226BF323D002D1D6F /* back in Resources */,
 				CE4CF96026BF323D002D1D6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HW_2.10/AsistentFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,6 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HW_2.10/AsistentFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
